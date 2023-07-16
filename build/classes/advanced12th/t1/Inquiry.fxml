@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #ffffff;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="advanced12th.t1.InquiryController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#032b51" height="514.0" stroke="BLACK" strokeType="INSIDE" width="542.0" />
+      <ImageView fitHeight="181.0" fitWidth="256.0" layoutX="544.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Picture3.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="586.0" layoutY="289.0" prefHeight="38.0" prefWidth="173.0" text="TrainFast" textFill="#151b54">
+         <font>
+            <Font name="Eras Bold ITC" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="227.0" prefHeight="22.0" prefWidth="230.0" text="Select Departure Station:" textFill="WHITE">
+         <font>
+            <Font name="Eras Bold ITC" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="227.0" prefHeight="22.0" prefWidth="230.0" text="Select Arrival Station:" textFill="WHITE">
+         <font>
+            <Font name="Eras Bold ITC" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="177.0" layoutY="355.0" mnemonicParsing="false" onAction="#GoToSchedule" prefHeight="31.0" prefWidth="188.0" style="-fx-background-color: #82CAFF;" text="CHECK" textFill="#fffbfb">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <DatePicker fx:id="Travel_Date_Inquiry" layoutX="143.0" layoutY="128.0" onAction="#getDate" prefHeight="31.0" prefWidth="256.0" promptText="Enter Travel Date" style="-fx-background-color: #ffffff;" />
+      <ChoiceBox fx:id="Departure_Inquiry" layoutX="21.0" layoutY="253.0" prefHeight="31.0" prefWidth="230.0" style="-fx-background-color: #ffffff;" />
+      <ChoiceBox fx:id="Arrival_Inquiry" layoutX="279.0" layoutY="253.0" prefHeight="31.0" prefWidth="230.0" style="-fx-background-color: #ffffff;" />
+      <ImageView fitHeight="46.0" fitWidth="66.0" layoutX="7.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/house.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="7.0" layoutY="7.0" mnemonicParsing="false" onAction="#GoToHome" opacity="0.0" prefHeight="46.0" prefWidth="47.0" />
+   </children>
+</AnchorPane>

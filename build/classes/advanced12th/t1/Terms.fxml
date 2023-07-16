@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="advanced12th.t1.TermsController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#032b51" height="514.0" stroke="BLACK" strokeType="INSIDE" width="542.0" />
+      <ImageView fitHeight="181.0" fitWidth="256.0" layoutX="544.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Picture3.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="586.0" layoutY="289.0" prefHeight="38.0" prefWidth="173.0" text="TrainFast" textFill="#151b54">
+         <font>
+            <Font name="Eras Bold ITC" size="32.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="-4.0" layoutY="64.0" prefHeight="448.0" prefWidth="548.0" text="Welcome to TrainFast Internet Reservation Service.&#10;&#10;Please note that using the services implies the acceptance &#10;of the service Terms &amp; Conditions.&#10;&#10;Please abide to the following rules:&#10;&#10;- For each train, there is a certain seats quota (maximum &#10;  number of seats) for the Internet users.&#10;- Each user has a maximum of seats on each TRAIN in the &#10;  same travelling day (5 for Alexandria route and 4 for upper &#10;  Egypt).&#10;- Each user has a maximum of seats per travelling DAY &#10;  (10 for Alexandria route and 8 for upper Egypt).&#10;- The seats quota is applied when the user checks available &#10;  seats or reserves tickets.&#10;- Any attempt to pass this limit (as a user account or credit &#10;  card) will result in cancelling the WHOLE transaction &#10;  and the reservation money value will be returned to the &#10;  credit card.&#10;- Service expenditures are defined in the pricing system &#10;  and pay for tickets issued through the Internet">
+         <font>
+            <Font name="Eras Bold ITC" size="17.0" />
+         </font>
+      </TextArea>
+      <Label alignment="CENTER" layoutX="120.0" layoutY="26.0" prefHeight="28.0" prefWidth="301.0" text="Terms &amp; Conditions" textFill="WHITE">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="46.0" fitWidth="66.0" layoutX="7.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/house.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="7.0" layoutY="7.0" mnemonicParsing="false" onAction="#GoToHome" opacity="0.0" prefHeight="46.0" prefWidth="47.0" />
+   </children>
+</AnchorPane>

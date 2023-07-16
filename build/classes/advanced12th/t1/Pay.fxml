@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #ffffff;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#032b51" height="514.0" stroke="BLACK" strokeType="INSIDE" width="542.0" />
+      <ImageView fitHeight="181.0" fitWidth="256.0" layoutX="544.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Picture3.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="586.0" layoutY="289.0" prefHeight="38.0" prefWidth="173.0" text="TrainFast" textFill="#151b54">
+         <font>
+            <Font name="Eras Bold ITC" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

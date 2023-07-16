@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="advanced12th.t1.TicketController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#032b51" height="514.0" layoutX="-1.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="542.0" />
+      <ImageView fitHeight="181.0" fitWidth="256.0" layoutX="543.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Picture3.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="585.0" layoutY="288.0" prefHeight="38.0" prefWidth="173.0" text="TrainFast" textFill="#151b54">
+         <font>
+            <Font name="Eras Bold ITC" size="32.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="30.0" layoutY="69.0" prefHeight="28.0" prefWidth="86.0" text="Ticket" textFill="WHITE">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="189.0" layoutX="30.0" layoutY="108.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="477.0" />
+      <Line endX="-69.0" endY="5.0" layoutX="337.0" layoutY="271.0" startX="-69.0" startY="-148.0" />
+      <Label layoutX="37.0" layoutY="134.0" prefHeight="28.0" prefWidth="224.0" text="Train:  934" textFill="#16086b">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="166.0" prefHeight="28.0" prefWidth="224.0" text="Time: 6:30 AM" textFill="#16086b">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="200.0" prefHeight="28.0" prefWidth="77.0" text="From: " textFill="#16086b">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="233.0" prefHeight="28.0" prefWidth="67.0" text="To:" textFill="#16086b">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="134.0" prefHeight="28.0" prefWidth="77.0" text="Date:" textFill="#16086b">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="166.0" prefHeight="28.0" prefWidth="224.0" text="Cart:    2" textFill="#16086b">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="200.0" prefHeight="28.0" prefWidth="224.0" text="Seat:   15" textFill="#16086b">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="233.0" prefHeight="28.0" prefWidth="77.0" text="Class:" textFill="#16086b">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="Date2" layoutX="351.0" layoutY="134.0" prefHeight="28.0" prefWidth="151.0" text="Label" textFill="#16086b">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="StartLabel2" layoutX="351.0" layoutY="200.0" prefHeight="28.0" prefWidth="151.0" text="Label" textFill="#16086b">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="EndLabel2" layoutX="351.0" layoutY="233.0" prefHeight="28.0" prefWidth="151.0" text="Label" textFill="#16086b">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="Class2" layoutX="116.0" layoutY="233.0" prefHeight="21.0" prefWidth="151.0" text="Label" textFill="#16086b">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="33.0" layoutY="318.0" prefHeight="28.0" prefWidth="86.0" text="Price:" textFill="WHITE">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="Price2" layoutX="135.0" layoutY="318.0" prefHeight="28.0" prefWidth="406.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Eras Bold ITC" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="139.0" layoutY="409.0" mnemonicParsing="false" onAction="#GoToPay" prefHeight="31.0" prefWidth="256.0" style="-fx-background-color: #82CAFF;" text="PAY" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="46.0" fitWidth="66.0" layoutX="5.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/house.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="5.0" layoutY="6.0" mnemonicParsing="false" onAction="#GoToHome" opacity="0.0" prefHeight="46.0" prefWidth="47.0" />
+   </children>
+</AnchorPane>
